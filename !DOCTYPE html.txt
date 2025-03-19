@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Shalon Adonai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍔 Lanchonete Shalon Adonai</h1>
+        <nav>
+            <ul>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à melhor lanchonete da cidade! 🍽</h2>
+        <p>Sabores incríveis esperando por você. Confira nosso cardápio!</p>
+        <a href="#cardapio" class="botao">Ver Cardápio</a>
+    </section>
+
+    <section id="cardapio">
+        <h2>Nosso Cardápio</h2>
+        <div class="categorias">
+            <button onclick="mostrarCategoria('salgados')">🥐 Salgados</button>
+            <button onclick="mostrarCategoria('cafes')">☕ Cafés</button>
+            <button onclick="mostrarCategoria('bebidas')">🥤 Bebidas</button>
+            <button onclick="mostrarCategoria('refeicoes')">🍽 Refeições</button>
+            <button onclick="mostrarCategoria('sorvetes')">🍦 Sorvetes</button>
+            <button onclick="mostrarCategoria('acai')">🍧 Açaí</button>
+        </div>
+        <div id="produtos"></div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A Lanchonete Shalon Adonai nasceu com o propósito de oferecer alimentos saborosos e de qualidade, sempre com um atendimento acolhedor.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>📍 Endereço: Rua Exemplo, 123 - Cidade</p>
+        <p>📞 Telefone: (99) 9999-9999</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lanchonete Shalon Adonai - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
